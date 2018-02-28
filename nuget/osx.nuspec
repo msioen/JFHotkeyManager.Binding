@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
 		<id>HotKeyManager.Binding</id>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<title>JFHotkeyManager - Xamarin OS X Binding</title>
 		<authors>Michiel Sioen</authors>
 		<owners>Michiel Sioen</owners>

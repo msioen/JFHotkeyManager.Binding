@@ -2,7 +2,7 @@
 
 namespace HotKeyManager
 {
-    enum EModifierKeys
+    public enum EModifierKeys
     {
         ActiveFlag = 1 << 0,
         BtnState = 1 << 7,

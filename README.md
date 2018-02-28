@@ -23,7 +23,7 @@ hotkeyManager.Bind("command shift up", this, new ObjCRuntime.Selector("onHotkeyE
 [Export("onHotkeyExecuted")]
 void OnHotkeyExecuted()
 {
-	// do something
+  // do something
 }
 
 ```
