@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0314579320473C680006ABC9 /* HotKeyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0314579220473C680006ABC9 /* HotKeyManager.h */; };
-		0314579520473C680006ABC9 /* HotKeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0314579420473C680006ABC9 /* HotKeyManager.m */; };
+		0314579320473C680006ABC9 /* JFHotkeyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0314579220473C680006ABC9 /* JFHotkeyManager.h */; };
+		0314579520473C680006ABC9 /* JFHotkeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0314579420473C680006ABC9 /* JFHotkeyManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0314578F20473C680006ABC9 /* libHotKeyManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHotKeyManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0314579220473C680006ABC9 /* HotKeyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotKeyManager.h; sourceTree = "<group>"; };
-		0314579420473C680006ABC9 /* HotKeyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotKeyManager.m; sourceTree = "<group>"; };
+		0314579220473C680006ABC9 /* JFHotkeyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFHotkeyManager.h; sourceTree = "<group>"; };
+		0314579420473C680006ABC9 /* JFHotkeyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFHotkeyManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +47,8 @@
 		0314579120473C680006ABC9 /* HotKeyManager */ = {
 			isa = PBXGroup;
 			children = (
-				0314579220473C680006ABC9 /* HotKeyManager.h */,
-				0314579420473C680006ABC9 /* HotKeyManager.m */,
+				0314579220473C680006ABC9 /* JFHotkeyManager.h */,
+				0314579420473C680006ABC9 /* JFHotkeyManager.m */,
 			);
 			path = HotKeyManager;
 			sourceTree = "<group>";
@@ -60,7 +60,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0314579320473C680006ABC9 /* HotKeyManager.h in Headers */,
+				0314579320473C680006ABC9 /* JFHotkeyManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0314579520473C680006ABC9 /* HotKeyManager.m in Sources */,
+				0314579520473C680006ABC9 /* JFHotkeyManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
