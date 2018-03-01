@@ -1,6 +1,6 @@
-[![NuGet Status](http://img.shields.io/nuget/v/JFHotkeyManager.Binding.svg?style=flat)](https://www.nuget.org/packages/JFHotkeyManager.Binding/)
+[![NuGet Status](http://img.shields.io/nuget/v/HotkeyManager.Binding.svg?style=flat)](https://www.nuget.org/packages/HotkeyManager.Binding/)
 
-# JFHotkeyManager.Binding
+# HotkeyManager.Binding
 
 Xamarin binding for the [JFHotkeyManager](https://github.com/jaz303/JFHotkeyManager)
 
