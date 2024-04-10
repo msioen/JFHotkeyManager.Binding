@@ -2,21 +2,23 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
 		<id>HotKeyManager.Binding</id>
-		<version>1.0.1</version>
-		<title>JFHotkeyManager - Xamarin OS X Binding</title>
+		<version>2.0.0</version>
+		<title>JFHotkeyManager - .NET MacOS Binding</title>
 		<authors>Michiel Sioen</authors>
 		<owners>Michiel Sioen</owners>
-		<licenseUrl>https://github.com/msioen/JFHotkeyManager.Binding/blob/master/LICENSE</licenseUrl>
+		<license type="expression">MIT</license>
 		<projectUrl>https://github.com/msioen/JFHotkeyManager.Binding</projectUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>Global hotkey manager for Cocoa</description>
-		<tags>xamarin, xamarin.mac, mac, hotkeys</tags>
+		<tags>xamarin, xamarin.mac, mac, hotkeys, maui mac</tags>
 		<dependencies>
+			<group targetFramework="net8.0-macOS13.0">
+			</group>
 		</dependencies>
 	</metadata>
 	<files>
 
-	<file src="..\binding\HotKeyManager.Binding\bin\Release\HotKeyManager.Binding.dll" target="lib\xamarinmac20\HotKeyManager.Binding.dll" />
+	<file src="..\binding\HotKeyManager.Binding\bin\Release\net8.0-macos\HotKeyManager.Binding.dll" target="lib\net8.0-macos13.0\HotKeyManager.Binding.dll" />
 
 	</files>
 </package>

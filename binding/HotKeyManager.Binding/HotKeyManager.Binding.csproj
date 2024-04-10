@@ -1,45 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3A85EBE-E61B-46CE-BF58-662C626E9D4C}</ProjectGuid>
-    <ProjectTypeGuids>{810C163F-4746-4721-8B8E-88A3673A62EA};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0-macos</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>false</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <RootNamespace>HotKeyManager.Binding</RootNamespace>
     <AssemblyName>HotKeyManager.Binding</AssemblyName>
-    <MacResourcePrefix>Resources</MacResourcePrefix>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug</OutputPath>
-    <DefineConstants>DEBUG;</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release</OutputPath>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="Xamarin.Mac" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="libHotKeyManager.linkwith.cs" />
-    <Compile Include="Additions.cs" />
-  </ItemGroup>
   <ItemGroup>
     <ObjcBindingApiDefinition Include="ApiDefinitions.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <ObjcBindingNativeLibrary Include="libHotKeyManager.a" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.ObjcBinding.CSharp.targets" />
 </Project>
